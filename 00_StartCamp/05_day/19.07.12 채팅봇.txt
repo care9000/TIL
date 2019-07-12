@@ -1,0 +1,29 @@
+2019-07-12
+
+
+<봇 토큰/아이디>
+
+1.봇 토큰
+823604627:AAH2nEZHVLT678gjQSCF2kevt6Jt4FZTvp0
+
+2.chat_id
+737357998
+
+
+<메서드 & etc>
+1. getMe
+https://api.telegram.org/bot823604627:AAH2nEZHVLT678gjQSCF2kevt6Jt4FZTvp0/getMe
+
+
+2. getUpdates
+https://api.telegram.org/bot823604627:AAH2nEZHVLT678gjQSCF2kevt6Jt4FZTvp0/getUpdates
+
+3.sendMessage
+https://api.telegram.org/bot823604627:AAH2nEZHVLT678gjQSCF2kevt6Jt4FZTvp0/sendMessage?chat_id=737357998&text=No.7
+
+
+4.ngrok
+https://2c89e968.ngrok.io  
+
+5.setWebhook
+https://api.telegram.org/bot823604627:AAH2nEZHVLT678gjQSCF2kevt6Jt4FZTvp0/setWebhook?url=https://care90000.pythonanywhere.com/823604627:AAH2nEZHVLT678gjQSCF2kevt6Jt4FZTvp0
