@@ -1,0 +1,11 @@
+ol>li:nth-child(4){
+    background:blueviolet;
+
+}
+/* 4번쨰 자리에 li면 바꾸고 아니면 그냥 넘어감 */
+
+ol>li:nth-of-type(4){
+    background:blueviolet;
+
+}
+/* 4번째를 끝까지 찾아서 변경함. */

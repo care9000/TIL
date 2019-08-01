@@ -1,0 +1,21 @@
+<form action=""> <!-- input 을 통하여 입력창 생성-->
+    TEXT: <input type="text"placeholder="내용을 입력해주세요"><br> <!--  placeholder 미리 입력해놓은것 입력하면 사라짐.-->
+    NUMBER: <input type="number"><br>
+    PASSWORD: <input type="password"><br>
+    Email: <input type="email"><br>
+    DATE: <input type="date"><br> <!-- type을 통하여 형식 설정 가능-->
+
+    <input type="radio" name="language"  disabled>HTML<br> <!-- disabled 를하게 되면 선택 할 수 없게 만듬.-->
+    <input type="radio" name="language" value="1">CSS<br>
+    <input type="radio" name="language" value="2">JS<br> <!--value 값을 지정해 전송-->
+
+    <select name="country">
+        <option value="한국" selected>한국</option> <!-- 옵션을 선택하는 기능 selected는 처음값-->
+        <option value="중국">중궈런</option>
+        <option value="일본" disabled>니뽄</option>    <!-- disabled 를하게 되면 선택 할 수 없게 만듬.-->
+    </select><br>
+
+    한국: <input type="checkbox"> <!-- check 할 수 있는 box를 만듬.-->
+    일본: <input type="checkbox"><br>
+    <input type="submit" value="제출하세요."><!-- submit 을 누르게 되면 어디로 가게됨.-->
+</form>
