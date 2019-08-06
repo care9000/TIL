@@ -1,6 +1,7 @@
 from django.shortcuts import render
 import random
 from datetime import datetime
+import requests
 # 1. 기본 로직.
 def index(request):
     return render(request, 'index.html')
@@ -82,13 +83,112 @@ def template_language(request):
     return render(request, 'template_language.html', context)
 
 
-#6.project
-def info(request):
-    return render(request, 'info.html')
-
-#7.project -2
-def student(request,name):
+#6. 실습
+#6-1. isbirth
+def isbirth(request):
+    today= datetime.now()
+    day1 = today.day
+    month1 = today.month
+    if day1 == 28 and month1 == 9:
+        result = True
+    else:
+        result = False
     context = {
-        'name': name,
+        # 'today':today,
+        # 'day1':day1,
+        # 'month':month1,
+        'result':result
     }
-    return render(request, 'student.html', context)
+
+    return render(request,'isbirth.html', context)
+
+#6-2. 회문판별
+def pal(request,name):
+    if name == name[::-1]:
+        result = True
+    else :
+        result = False
+    
+    context ={
+        'name':name,
+        'result':result,
+    }
+
+    return render(request,'pal.html',context)
+
+def lotto(request):
+    real_lottos = [21, 24, 30, 32, 40, 42]
+    lottos =list(random.sample(range(1, 46), 6))
+    
+
+    context ={
+        'real_lottos': real_lottos,
+        'lottos': sorted(lottos),
+    }
+
+    return render(request, 'lotto.html', context)
+
+
+
+#7. Form - GET
+def throw(request):
+    return render(request, 'throw.html')
+
+def catch(request):
+    message = request.GET.get('message')
+    message2 = request.GET.get('message2')
+    context ={
+        'message': message,
+        'message2': message2,
+        
+    }
+    return render(request,'catch.html', context)
+
+
+def ping(request):
+    return render(request,'ping.html')
+
+def pong(request):
+    message1 = request.GET.get("message1")
+    message2 = request.GET.get("message2")
+    context ={
+        'message1' :message1,
+        'message2':message2,
+    }
+    return render(request,'pong.html',context)
+    
+
+#8. Form - GET 실습(아스키 아티)
+def art(request):
+    return render(request, 'art.html')
+
+def result(request):
+    #1. form으로 날린 데이터를 받는다.(GET)
+    word = request.GET.get("word")
+    #2. ARTII api로 요청을 보내 응답 결과를 fonts에 저장한다.
+    fonts = requests.get('http://artii.herokuapp.com/fonts_list').text
+
+    #3. fonts(str)를 fonts(list)로 바꾼다.
+    fonts = fonts.split('\n')
+
+    #4. fonts(list)안에 들어있는 요소 중 하나를 선택해서 font라는 변수에 저장.
+    font = random.choice(fonts)
+    #5. 위에서 사용자에게 받은  word와 font를 가지고 다시 요청을 보낸다. 그리고 응답결과를 result에 저장한다.
+    result = requests.get(f'http://artii.herokuapp.com/make?text={word}&font={font}').text
+    context={
+        'result' : result
+    }
+    return render(request,'result.html',context)
+
+#9. Form -POST
+def user_new(request):
+    return render(request, 'user_new.html')
+
+def user_create(request):
+    name = request.POST.get('name')
+    pwd = request.POST.get('pwd')
+    context ={
+        'name':name,
+        'password':pwd,
+    }
+    return render(request, 'user_create.html', context)

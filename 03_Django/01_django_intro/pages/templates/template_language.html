@@ -42,3 +42,40 @@
         <p>{{ message }}, {{ message|length }}</p>
     {% endif %}
 {% endfor %}
+
+<hr>
+<h3>4. lorem ipsum</h3>
+{% lorem %}
+{% lorem 3 w %}
+<hr>
+{% lorem 4 w random %}
+<hr>
+{% lorem 2 p %}
+<hr>
+
+<h3>5. 글자수 제한(truncate)</h3>
+<p>{{ my_sentence|truncatewords:3 }}</p>
+<p>{{ my_sentence|truncatechars:10 }}</p>
+
+<h3>6.글자 관련 필터</h3>
+<p>{{ 'abc'|length }}</p>
+<p>{{ 'ABC'|lower }}</p>
+<p>{{ my_sentence|title }}</p>
+<p>{{ menus|random }}</p>
+
+<h3>7. 연산</h3>
+<p>{{ 4|add:6 }}</p>
+
+<h3>8. 날짜표현</h3> <!-- setting에서 우리가 ko-kr 로 설정했기 떄문에 지금꺼 뜬다.-->
+{{ datetimenow }} <br> <!--views.py에 있는 것을 끌어옴-->
+{% now "DATETIME_FORMAT" %} <br> <!-- 내장함수를 이용-->
+{% now "SHORT_DATETIME_FORMAT" %} <br> <!-- 축약으로 표현-->
+{% now "DATE_FORMAT" %} <br><!-- 시간이 아니라 날짜를 나옴-->
+{% now "SHORT_DATE_FORMAT" %} <br> <!-- 년 월 일 빼고 해줌-->
+
+{% now "Y년 m월 d일 (D) h:i" %} <br><!--Y소문자 쓰면 19이렇게 두개만뜸 (D)는 요일을 표시해줌-->
+
+{{ datetimenow|date:"SHORT_DATE_FORMAT" }} <br>
+
+<h3>9. 기타</h3>
+{{ 'google.com'|urlize }} <!--링크거는법-->
