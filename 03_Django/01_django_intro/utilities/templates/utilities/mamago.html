@@ -1,0 +1,11 @@
+{% extends 'base.html' %}
+
+
+{% block body%}
+    <h1 class="text-center">MAMAGO</h1>
+    <h2>영어번역을 희망하는 한국어를 입력하세요.</h2>
+    <form action="/utilities/translated/" method="GET">
+        사전찾고 왔냐? 안찾았으면 찾고와라:<input type="text" name="word">
+        <input type="submit" value="이정도는 너가 사전좀찾아라.">
+    </form>
+{% endblock %}

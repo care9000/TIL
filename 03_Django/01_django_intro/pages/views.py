@@ -4,20 +4,20 @@ from datetime import datetime
 import requests
 # 1. 기본 로직.
 def index(request):
-    return render(request, 'index.html')
+    return render(request, 'pages/index.html')
 
 def introduce(request):
-    return render(request, 'introduce.html')
+    return render(request, 'pages/introduce.html')
 
 def images(request):
-    return render(request, 'images.html')
+    return render(request, 'pages/images.html')
 
 #2. Template Variable(템플릿 변수)
 def dinner(request):
     menu = ['족발','햄버거','치킨','초밥']
     pick = random.choice(menu)
     context = {'pick': pick}
-    return render(request, 'dinner.html', context)
+    return render(request, 'pages/dinner.html', context)
 
 
 #3. Variable Routing(동적 라우팅)
@@ -31,7 +31,7 @@ def hello(request, name, age):
         'age': age,
         'pick': pick,
     }
-    return render(request, 'hello.html', context)
+    return render(request, 'pages/hello.html', context)
 
 
 #4. 실습
@@ -43,7 +43,7 @@ def hi(request, name, age):
         'name': name, 
         'age': age,
     }
-    return render(request, 'hi.html', context)
+    return render(request, 'pages/hi.html', context)
 
 #4-2. 두개의 숫자를 인자로 받아(num1, num2) 곱셈 결과를 출력
 def mul(request, n1, n2):
@@ -53,7 +53,7 @@ def mul(request, n1, n2):
         'n2': n2,
         'n3': n1*n2
     }
-    return render(request, 'mul.html', mul)
+    return render(request, 'pages/mul.html', mul)
 
 
 
@@ -63,7 +63,7 @@ def circle(request, r):
         'r': r,
         'area': r**2*3.141592
     }
-    return render(request, 'circle.html', result)
+    return render(request, 'pages/circle.html', result)
 
 #5. DTL(Django Temlpate Langage)
 def template_language(request):
@@ -80,7 +80,7 @@ def template_language(request):
         'empty_list': empty_list,
         'datetimenow': datetimenow,
     }
-    return render(request, 'template_language.html', context)
+    return render(request, 'pages/template_language.html', context)
 
 
 #6. 실습
@@ -100,7 +100,7 @@ def isbirth(request):
         'result':result
     }
 
-    return render(request,'isbirth.html', context)
+    return render(request,'pages/isbirth.html', context)
 
 #6-2. 회문판별
 def pal(request,name):
@@ -114,7 +114,7 @@ def pal(request,name):
         'result':result,
     }
 
-    return render(request,'pal.html',context)
+    return render(request,'pages/pal.html',context)
 
 def lotto(request):
     real_lottos = [21, 24, 30, 32, 40, 42]
@@ -126,13 +126,13 @@ def lotto(request):
         'lottos': sorted(lottos),
     }
 
-    return render(request, 'lotto.html', context)
+    return render(request, 'pages/lotto.html', context)
 
 
 
 #7. Form - GET
 def throw(request):
-    return render(request, 'throw.html')
+    return render(request, 'pages/throw.html')
 
 def catch(request):
     message = request.GET.get('message')
@@ -142,11 +142,11 @@ def catch(request):
         'message2': message2,
         
     }
-    return render(request,'catch.html', context)
+    return render(request,'pages/catch.html', context)
 
 
 def ping(request):
-    return render(request,'ping.html')
+    return render(request,'pages/ping.html')
 
 def pong(request):
     message1 = request.GET.get("message1")
@@ -155,12 +155,12 @@ def pong(request):
         'message1' :message1,
         'message2':message2,
     }
-    return render(request,'pong.html',context)
+    return render(request,'pages/pong.html',context)
     
 
 #8. Form - GET 실습(아스키 아티)
 def art(request):
-    return render(request, 'art.html')
+    return render(request, 'pages/art.html')
 
 def result(request):
     #1. form으로 날린 데이터를 받는다.(GET)
@@ -178,11 +178,11 @@ def result(request):
     context={
         'result' : result
     }
-    return render(request,'result.html',context)
+    return render(request,'pages/result.html',context)
 
 #9. Form -POST
 def user_new(request):
-    return render(request, 'user_new.html')
+    return render(request, 'pages/user_new.html')
 
 def user_create(request):
     name = request.POST.get('name')
@@ -191,4 +191,10 @@ def user_create(request):
         'name':name,
         'password':pwd,
     }
-    return render(request, 'user_create.html', context)
+    return render(request, 'pages/user_create.html', context)
+
+
+#10. 정적 파일
+def static_example(request):
+    return render(request,'pages/static_example.html')
+
