@@ -1,0 +1,11 @@
+{% extends 'base.html' %}
+{% block body %}
+    <h2 class="text-center">CRUD</h2>
+    <h2 class="text-center">AAA</h2>
+    {% for article in articles %}
+        <p>글 번호: {{ article.id }}</p>
+        <p>글 제목: {{ article.title }}</p>
+        <p>글 내용: {{ article.content }}</p>
+    {% endfor %}
+    <a href="/articles/new/">새로운거</a>
+{% endblock %}
