@@ -9,10 +9,38 @@
     <p>글 생성 시각: {{ article.created_at|date:"SHORT_DATE_FORMAT" }}</p>
     <p>글 수정 시각: {{ article.updated_at|date:"M, j, Y" }}</p>
     <hr>
+
+    <form action="{% url 'articles:comments_create' article.pk %}" method="POST">
+        {% csrf_token %}
+        <label for="content">COMMENT</label><br>
+        <input type="text" name="content" id="content"><br>
+        <input type="submit" value="댓글작성" class="btn btn-warning">
+    </form>
+    <hr>
+    <p><b>{{ comments|length }}개의 댓글</b></p>
+    <hr>
+    <p><b>댓글 목록</b></p>
+    <hr>
+    <!-- # 1. -->
+    <!-- {% for comment in article.comments.all %}
+    <li>{{ comment.content }}</li>
+    {% endfor %} -->
+    <!-- 2 -->
+    {% for comment in comments %}
+        <p>{{ comment.content }}</p>
+
+        <form action="{% url 'articles:comments_delete' article.pk comment.pk %}" method="POST">
+            {% csrf_token %}
+            <input type="submit" value="댓글삭제" class="btn btn-danger">
+        </form>
+        <a href="{% url 'articles:comments_update' article.pk comment.pk %}">댓글 수정</a>
+        {% empty %}
+            <p><b>댓글이 없네유...댓글 좀 써주세요 ..</b></p>
+    {% endfor %}
+    <hr>
     <form action="{% url 'articles:delete' article.pk %}" method="POST">
         {% csrf_token %}
         <input type="submit" value='글삭제'>
-
     </form>
     <!-- <a href="{% url 'articles:delete' article.pk %}">[글삭제2]</a> -->
     <!-- <a href="/articles/{{ article.pk }}/delete/">[글 삭제]</a> -->
