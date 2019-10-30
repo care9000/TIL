@@ -1,0 +1,21 @@
+{% extends 'base.html' %}
+
+{% block body %}
+    {% if request.resolver_match.url_name == 'new' %}
+    <h2>글쓰기</h2>
+    {% else %}
+    <h2>글수정</h2>
+    {% endif %}
+
+    <form action="" method="POST">
+    {% csrf_token %}
+    {{ form.as_p }}
+    <input type="submit">
+    <hr>
+    {% if request.resolver_match.url_name == 'new' %}
+    <a href="{% url 'articles:index' %}">[메인 페이지로]</a>
+    {% else %}
+    <a href="{% url 'articles:index' %}">[글 상세보기]</a>
+    {% endif %}
+    </form>
+{% endblock %}

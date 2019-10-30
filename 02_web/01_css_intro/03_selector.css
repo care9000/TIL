@@ -1,0 +1,39 @@
+/* 전체 선택자 */
+
+/* * {
+    color: sandybrown;
+    font-size: : 30px
+} */
+
+
+/* 태그 선택자 */
+/* ol, ul {
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+} */
+
+/* class 선택자 */
+/* .favorite {
+    color: darkkhaki;
+} */
+
+/* id 선택자*/
+
+#title {
+    color: whitesmoke;
+    background-color: indigo;
+    font-size: 90px
+}
+
+/* 자식 선택자*/
+
+/* ol li {
+    color: darkcyan;
+} */
+
+ul > li {
+    color: coral;
+}

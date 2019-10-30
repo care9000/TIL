@@ -1,0 +1,13 @@
+{% extends 'base.html' %}
+
+{% block body %}
+    <h2>create</h2>
+    <hr>
+    <form action="" method="POST">
+        <label for="name">title</label><br>
+        <input type="text" name="name" id="name"><br>
+        <label for="content">content</label><br>
+        <textarea name="content" id="content" cols="30" rows="10"></textarea><br>
+        <input type="submit" value="글 작성하기">
+    </form>
+{% endblock %}
