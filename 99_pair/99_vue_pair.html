@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Document</title>
+</head>
+<body>
+  <div id="app">
+    <my-todo-list category="하고 싶은 일" title_color_asdjifj_iasjdofij_asdijfoaisjdf_auosdiofjaosidf="red"></my-todo-list>
+    <my-todo-list category="해야 하는 일" title_color_asdjifj_iasjdofij_asdijfoaisjdf_auosdiofjaosidf="blue"></my-todo-list>
+
+  </div>
+  <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+  <script>
+    Vue.component('my-todo-list',{
+      template:`
+      <div class="my-todo-list">
+        <h2 :style="{ color:title_color_asdjifj_iasjdofij_asdijfoaisjdf_auosdiofjaosidf, width:'33%', height:'33%'}">{{ category }}</h2>
+        <input type="text" v-model="newTodo" v-on:keyup.enter="addTodo">
+        <button v-on:click="addTodo">플라스</button>
+        <ul>
+          <li v-for="todo in todos">
+            {{ todo.content }}
+            <button v-on:click="removeTodo(todo.id)" >마이나스</button>
+          </li>
+        </ul>
+      </div>`
+      ,
+      props:{
+        category:{
+          type:String,
+          required:true,
+        },
+        title_color_asdjifj_iasjdofij_asdijfoaisjdf_auosdiofjaosidf:{
+          type:String,
+        }
+      },
+      data: function(){
+        return {
+          todos : [],
+          newTodo : '',
+        }
+      },
+      methods:{
+        addTodo: function(){
+          if (this.newTodo.length !==0){
+            this.todos.push({
+              id: Date.now(),
+              content: this.newTodo,
+              todayDate: new Date(),
+            })
+            this.newTodo = ''
+          }
+        },
+        removeTodo: function(todo_id){
+          this.todos = this.todos.filter((todo) => {
+            return todo_id !== todo.id
+          })
+        },
+      },
+    })
+  </script>
+  <script>
+    const app = new Vue({
+      el:'#app',
+      data:{
+
+      },
+    })
+  </script>
+</body>
+</html>
