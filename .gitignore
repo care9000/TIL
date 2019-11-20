@@ -3,6 +3,8 @@
 # Edit at https://www.gitignore.io/?templates=python,django
 node_modules
 .env
+venv
+env
 ### Django ###
 *.log
 *.pot

@@ -18,6 +18,7 @@ def bfs(x, y, t):
             if -1 < nx < N and -1 < ny < N:
                 compare.append(map[nx][ny])
                 if compare[0] == compare[1]:
+
                     
 
 T = int(input())

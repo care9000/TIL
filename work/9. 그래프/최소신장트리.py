@@ -28,7 +28,7 @@ for tc in range(1, T+1):
     V, E = map(int, input().split()) # 마지막 노드번호(V), 간선의 개수(E)
     data = [list(map(int, input().split())) for _ in range(E)]
     # n1, n2, w(가중치)
-    print(data)
+    # print(data)
 
 
     connection = [[0] * (V+1) for _ in range(V+1)]
