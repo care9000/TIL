@@ -5,18 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="46a2c2c4-8b8a-40f8-b49f-724f0b916f55" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/1211_AL/10972_다음_순열.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/1211_AL/10972_다음_순열.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/1211_AL/10974_모든_순열.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/1211_AL/10974_모든_순열.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/1211_AL/1463_1로_만들기.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/1211_AL/1463_1로_만들기.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/1211_AL/2206_벽_부수고_이동하기.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/1211_AL/2206_벽_부수고_이동하기.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/1211_AL/2589_보물섬.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/1211_AL/2589_보물섬.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/1212_AL/14889_스타트와_링크.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/1212_AL/14889_스타트와_링크.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/1212_AL/15686_치킨_배달.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/1212_AL/15686_치킨_배달.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/1211_AL/15683_감시.py" beforeDir="false" afterPath="$PROJECT_DIR$/1211_AL/15683_감시.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -65,61 +58,57 @@
           <entry key="project.closed" value="6" />
           <entry key="project.open.time.0" value="1" />
           <entry key="project.open.time.1" value="2" />
-          <entry key="project.open.time.2" value="4" />
-          <entry key="project.opened" value="7" />
+          <entry key="project.open.time.2" value="5" />
+          <entry key="project.opened" value="8" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="py" value="28" />
-          <entry key="txt" value="17" />
+          <entry key="py" value="30" />
+          <entry key="txt" value="19" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="PLAIN_TEXT" value="17" />
-          <entry key="Python" value="28" />
+          <entry key="PLAIN_TEXT" value="19" />
+          <entry key="Python" value="30" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="py" value="14861" />
-          <entry key="txt" value="103" />
+          <entry key="py" value="16681" />
+          <entry key="txt" value="105" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="PLAIN_TEXT" value="103" />
-          <entry key="Python" value="14861" />
+          <entry key="PLAIN_TEXT" value="105" />
+          <entry key="Python" value="16681" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/1211_AL/15683_감시.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-180">
-              <caret line="42" column="33" lean-forward="true" selection-start-line="42" selection-start-column="33" selection-end-line="42" selection-end-column="33" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/1211_AL/1463_1로_만들기.py">
+        <entry file="file://$PROJECT_DIR$/1212_AL/15686_치킨_배달.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="225">
-              <caret line="15" column="10" lean-forward="true" selection-start-line="15" selection-start-column="10" selection-end-line="15" selection-end-column="10" />
+            <state relative-caret-position="440">
+              <caret line="20" lean-forward="true" selection-start-line="20" selection-end-line="20" />
+              <folding>
+                <marker date="1576115514470" expanded="true" signature="88:648" ph="..." />
+                <marker date="1576115514470" expanded="true" signature="667:672" ph="..." />
+                <marker date="1576115514470" expanded="true" signature="667:1034" ph="..." />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/1211_AL/1463_1로_만들기.txt">
+        <entry file="file://$PROJECT_DIR$/1212_AL/15686_치킨_배달.txt">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="2" selection-start-column="2" selection-end-column="2" />
+            <state relative-caret-position="75">
+              <caret line="5" column="9" selection-start-line="5" selection-start-column="9" selection-end-line="5" selection-end-column="9" />
             </state>
           </provider>
         </entry>
@@ -180,12 +169,16 @@
         <option value="$PROJECT_DIR$/1211_AL/2206_벽_부수고_이동하기.txt" />
         <option value="$PROJECT_DIR$/1211_AL/1463_1로_만들기.txt" />
         <option value="$PROJECT_DIR$/1211_AL/1463_1로_만들기.py" />
+        <option value="$PROJECT_DIR$/1212_AL/14889_스타트와_링크.py" />
+        <option value="$PROJECT_DIR$/1212_AL/14889_스타트와_링크.txt" />
+        <option value="$PROJECT_DIR$/1212_AL/15686_치킨_배달.py" />
+        <option value="$PROJECT_DIR$/1212_AL/15686_치킨_배달.txt" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="823" />
-    <option name="y" value="59" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="819" />
+    <option name="y" value="54" />
     <option name="width" value="974" />
     <option name="height" value="1047" />
   </component>
@@ -208,7 +201,7 @@
             <path>
               <item name="winter_1" type="b2602c69:ProjectViewProjectNode" />
               <item name="winter_1" type="462c0819:PsiDirectoryNode" />
-              <item name="1211_AL" type="462c0819:PsiDirectoryNode" />
+              <item name="1212_AL" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -232,7 +225,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.1463_1로_만들기">
+  <component name="RunManager" selected="Python.15686_치킨_배달">
     <configuration name="10972_다음_순열" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="winter" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -246,27 +239,6 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/1211_AL/10972_다음_순열.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="10974_모든_순열" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="winter" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/1211_AL" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/1211_AL/10974_모든_순열.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -296,6 +268,48 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="14889_스타트와_링크" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="winter" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/1212_AL" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/1212_AL/14889_스타트와_링크.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="15686_치킨_배달" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="winter" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/1212_AL" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/1212_AL/15686_치킨_배달.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="2206_벽_부수고_이동하기" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="winter" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -317,41 +331,20 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="2589_보물섬" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="winter" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/1211_AL" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/1211_AL/2589_보물섬.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
     <list>
-      <item itemvalue="Python.2589_보물섬" />
-      <item itemvalue="Python.10974_모든_순열" />
       <item itemvalue="Python.10972_다음_순열" />
       <item itemvalue="Python.2206_벽_부수고_이동하기" />
       <item itemvalue="Python.1463_1로_만들기" />
+      <item itemvalue="Python.14889_스타트와_링크" />
+      <item itemvalue="Python.15686_치킨_배달" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.15686_치킨_배달" />
+        <item itemvalue="Python.14889_스타트와_링크" />
         <item itemvalue="Python.1463_1로_만들기" />
         <item itemvalue="Python.2206_벽_부수고_이동하기" />
         <item itemvalue="Python.10972_다음_순열" />
-        <item itemvalue="Python.10974_모든_순열" />
-        <item itemvalue="Python.2589_보물섬" />
       </list>
     </recent_temporary>
   </component>
@@ -369,14 +362,15 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <frame x="819" y="54" width="974" height="1047" extended-state="0" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.12328767" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.29967427" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.2993421" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.3991228" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -646,6 +640,20 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/1211_AL/15683_감시.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="630">
+          <caret line="42" column="33" selection-start-line="42" selection-start-column="33" selection-end-line="42" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/1211_AL/1463_1로_만들기.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="15" column="10" selection-start-line="15" selection-start-column="10" selection-end-line="15" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/1211_AL/1463_1로_만들기.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state>
@@ -653,17 +661,40 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/1211_AL/15683_감시.py">
+    <entry file="file://$PROJECT_DIR$/1212_AL/14889_스타트와_링크.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-180">
-          <caret line="42" column="33" lean-forward="true" selection-start-line="42" selection-start-column="33" selection-end-line="42" selection-end-column="33" />
+        <state relative-caret-position="450">
+          <caret line="30" column="14" lean-forward="true" selection-start-line="30" selection-start-column="14" selection-end-line="30" selection-end-column="14" />
+          <folding>
+            <marker date="1576114138370" expanded="true" signature="153:658" ph="..." />
+            <marker date="1576114138370" expanded="true" signature="677:1097" ph="..." />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/1211_AL/1463_1로_만들기.py">
+    <entry file="file://$PROJECT_DIR$/1212_AL/14889_스타트와_링크.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="15" column="10" lean-forward="true" selection-start-line="15" selection-start-column="10" selection-end-line="15" selection-end-column="10" />
+        <state>
+          <caret column="1" lean-forward="true" selection-start-column="1" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/1212_AL/15686_치킨_배달.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="9" selection-start-line="5" selection-start-column="9" selection-end-line="5" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/1212_AL/15686_치킨_배달.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="440">
+          <caret line="20" lean-forward="true" selection-start-line="20" selection-end-line="20" />
+          <folding>
+            <marker date="1576115514470" expanded="true" signature="88:648" ph="..." />
+            <marker date="1576115514470" expanded="true" signature="667:672" ph="..." />
+            <marker date="1576115514470" expanded="true" signature="667:1034" ph="..." />
+          </folding>
         </state>
       </provider>
     </entry>
