@@ -10,19 +10,13 @@ def Distance():
         tem_distance = 987654321
         for j in range(len(chicken_location)):
             if A[j] == 1:
-                if abs((house_location[i][0] - chicken_location[j][0])) + abs((house_location[i][1] - chicken_location[j][1])) < tem_distance :
+                if abs((house_location[i][0] - chicken_location[j][0])) + abs((house_location[i][1] - chicken_location[j][1])) < tem_distance:
                     tem_distance = abs((house_location[i][0] - chicken_location[j][0])) + abs((house_location[i][1] - chicken_location[j][1]))
 
         distance += tem_distance
 
     if min_distance > distance:
         min_distance = distance
-
-
-
-
-
-
 
 
 def PowerSet(N, m):
@@ -46,8 +40,6 @@ def PowerSet(N, m):
         PowerSet(N, m + 1)
         A[m] = 0
         PowerSet(N, m + 1)
-
-
 
 
 N, M = map(int, input().split())
