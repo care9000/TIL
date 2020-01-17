@@ -5,9 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="46a2c2c4-8b8a-40f8-b49f-724f0b916f55" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/0117_AL/5014_스타트링크.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/0117_AL/5014_스타트링크.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/0114_AL/파괴된도시(정덕).py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/0114_AL/18231_ 파괴된_도시.txt" beforeDir="false" afterPath="$PROJECT_DIR$/0114_AL/18231_ 파괴된_도시.txt" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -89,42 +89,64 @@
     <session id="-459547894">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="4" />
+          <entry key="project.closed" value="5" />
           <entry key="project.open.time.0" value="1" />
+          <entry key="project.open.time.2" value="1" />
           <entry key="project.open.time.3" value="2" />
           <entry key="project.open.time.5" value="1" />
           <entry key="project.open.time.6" value="1" />
-          <entry key="project.opened" value="5" />
+          <entry key="project.opened" value="6" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="md" value="1" />
-          <entry key="py" value="11" />
-          <entry key="txt" value="9" />
+          <entry key="py" value="13" />
+          <entry key="txt" value="10" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="Markdown" value="1" />
-          <entry key="PLAIN_TEXT" value="9" />
-          <entry key="Python" value="11" />
+          <entry key="PLAIN_TEXT" value="10" />
+          <entry key="Python" value="13" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="py" value="3798" />
+          <entry key="py" value="4132" />
+          <entry key="txt" value="96" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="Python" value="3798" />
+          <entry key="PLAIN_TEXT" value="96" />
+          <entry key="Python" value="4132" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
+    <leaf>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/0114_AL/파괴된도시(정덕).py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="196">
+              <caret line="30" column="14" lean-forward="true" selection-start-line="30" selection-start-column="14" selection-end-line="30" selection-end-column="14" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/0114_AL/18231_ 파괴된_도시.txt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="45">
+              <caret line="3" column="3" lean-forward="true" selection-start-line="3" selection-start-column="3" selection-end-line="3" selection-end-column="3" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -144,9 +166,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/1210_AL/치즈.py" />
-        <option value="$PROJECT_DIR$/1211_AL/11403_경로찾기.py" />
-        <option value="$PROJECT_DIR$/1211_AL/11403_경로찾기.txt" />
         <option value="$PROJECT_DIR$/1210_AL/11724_연결_요소의_개수.py" />
         <option value="$PROJECT_DIR$/1210_AL/11724_연결_요소의_개수.txt" />
         <option value="$PROJECT_DIR$/1210_AL/6603_로또.txt" />
@@ -195,13 +214,17 @@
         <option value="$PROJECT_DIR$/0104_AL/2206_벽_부수고_이동하기.txt" />
         <option value="$PROJECT_DIR$/0117_AL/5014_스타트링크.txt" />
         <option value="$PROJECT_DIR$/0117_AL/5014_스타트링크.py" />
+        <option value="$PROJECT_DIR$/0114_AL/18231_ 파괴된_도시.py" />
+        <option value="$PROJECT_DIR$/0114_AL/18231_ 파괴된_도시.txt" />
+        <option value="$PROJECT_DIR$/0114_AL/파괴된도시(정덕).py" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="952" />
-    <option name="width" value="977" />
-    <option name="height" value="1038" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="638" />
+    <option name="y" value="62" />
+    <option name="width" value="978" />
+    <option name="height" value="1072" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -211,6 +234,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -218,11 +242,15 @@
               <item name="winter_1" type="b2602c69:ProjectViewProjectNode" />
               <item name="winter_1" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="winter_1" type="b2602c69:ProjectViewProjectNode" />
+              <item name="winter_1" type="462c0819:PsiDirectoryNode" />
+              <item name="0114_AL" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -241,49 +269,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.5014_스타트링크">
-    <configuration name="11399_ATM" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="winter" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/0109_AL" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/0109_AL/11399_ATM.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="16235_나무_재테크" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="winter" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/0109_AL" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/0109_AL/16235_나무_재테크.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
+  <component name="RunManager" selected="Python.파괴된도시(정덕)">
     <configuration name="16673_고려대학교에는_공식_와인이_있다" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="winter" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -297,6 +283,27 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/0110_AL/16673_고려대학교에는_공식_와인이_있다.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="18231_ 파괴된_도시" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="winter" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/0114_AL" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/0114_AL/18231_ 파괴된_도시.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -347,20 +354,41 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="파괴된도시(정덕)" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="winter" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/0114_AL" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/0114_AL/파괴된도시(정덕).py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <list>
-      <item itemvalue="Python.11399_ATM" />
-      <item itemvalue="Python.16235_나무_재테크" />
       <item itemvalue="Python.16673_고려대학교에는_공식_와인이_있다" />
       <item itemvalue="Python.2206_벽_부수고_이동하기" />
       <item itemvalue="Python.5014_스타트링크" />
+      <item itemvalue="Python.18231_ 파괴된_도시" />
+      <item itemvalue="Python.파괴된도시(정덕)" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.파괴된도시(정덕)" />
+        <item itemvalue="Python.18231_ 파괴된_도시" />
         <item itemvalue="Python.5014_스타트링크" />
         <item itemvalue="Python.2206_벽_부수고_이동하기" />
         <item itemvalue="Python.16673_고려대학교에는_공식_와인이_있다" />
-        <item itemvalue="Python.16235_나무_재테크" />
-        <item itemvalue="Python.11399_ATM" />
       </list>
     </recent_temporary>
   </component>
@@ -378,14 +406,14 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
+    <frame x="511" y="50" width="782" height="857" extended-state="0" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24454726" />
+      <window_info content_ui="combo" id="Project" order="0" weight="0.4966443" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.2940341" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.28630707" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.3991228" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -403,21 +431,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/1210_AL/2583_영역_구하기.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="3" selection-start-line="3" selection-end-line="59" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/1210_AL/2583_영역_구하기.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="3" column="7" selection-start-line="3" selection-start-column="7" selection-end-line="3" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/1210_AL/7569_tomato.py" />
     <entry file="file://$PROJECT_DIR$/1210_AL/7562_나이트의_이동.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="60">
@@ -679,9 +692,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="930">
           <caret line="62" column="12" selection-end-line="62" selection-end-column="13" />
-          <folding>
-            <marker date="1579229325259" expanded="true" signature="85:1486" ph="..." />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -703,9 +713,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="375">
           <caret line="25" lean-forward="true" selection-start-line="25" selection-end-line="25" />
-          <folding>
-            <marker date="1579230631778" expanded="true" signature="80:486" ph="..." />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -720,6 +727,27 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="60">
           <caret line="4" column="4" selection-start-line="4" selection-start-column="4" selection-end-line="4" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/0114_AL/18231_ 파괴된_도시.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret selection-end-line="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/0114_AL/18231_ 파괴된_도시.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" column="3" lean-forward="true" selection-start-line="3" selection-start-column="3" selection-end-line="3" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/0114_AL/파괴된도시(정덕).py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="196">
+          <caret line="30" column="14" lean-forward="true" selection-start-line="30" selection-start-column="14" selection-end-line="30" selection-end-column="14" />
         </state>
       </provider>
     </entry>
