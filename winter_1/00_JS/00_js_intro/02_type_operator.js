@@ -98,7 +98,7 @@
 
 // console.log(true ? 1 : 2) // 1
 // console.log(false ? 1 : 2) // 2
-// console.log('nyapy' ? 'awesome' : 'nice') // awesome
+// console.log('' ? 'awesome' : 'nice') // awesome
 
-const result = Math.PI > 4 ? "Yep" : "Nope" // Nope
-console.log(result)
+// const result = Math.PI > 4 ? "Yep" : "Nope" // Nope
+// console.log(result)
