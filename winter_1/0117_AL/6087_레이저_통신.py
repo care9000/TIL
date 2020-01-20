@@ -4,6 +4,7 @@ sys.stdin = open('6087_레이저_통신.txt')
 
 import collections
 
+
 def bfs(i, j):
     q = collections.deque([])
     # (i, j) 좌표, 현재방향, 이때까지 꺾은 방향
@@ -27,12 +28,10 @@ def bfs(i, j):
                         visited[i_tem][j_tem] = cnt + 1
                         q.append([i_tem, j_tem, (tem + k) % 4, cnt + 1])
 
-                elif k == 0:
+                else:
                     if visited[i_tem][j_tem] >= cnt:
                         visited[i_tem][j_tem] = cnt
                         q.append([i_tem, j_tem, dir, cnt])
-
-
 
 
 def ispass(i, j):
